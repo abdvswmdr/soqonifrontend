@@ -873,7 +873,7 @@ body {
 #main-slider .item img {
   width: 100%;
   height: 280px;
-  object-fit: contain;
+  object-fit: fill;
   display: block;
 }
 @media (max-width: 768px) {
