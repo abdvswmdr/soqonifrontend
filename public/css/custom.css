@@ -102,7 +102,8 @@ h5 {
   display: flex;
   align-items: center;
 }
-.navbar-brand img.hidden-xs {
+.navbar-brand img.hidden-xs,
+.navbar-brand img.visible-xs {
   max-height: 36px;
   width: auto;
 }
@@ -250,7 +251,7 @@ h5 {
   color: #0a5bbf;
 }
 
-/* ── Section title ── BUILD_MARKER_XYZ ───────────────────── */
+/* ── Section title ─────────────────────────────────────── */
 .section-title {
   text-align: center;
   font-size: 22px;
