@@ -861,29 +861,29 @@ body {
   background: #0a0a0a;
 }
 #main-slider .owl-wrapper-outer {
-  max-height: 280px !important;
+  max-height: 360px !important;
   overflow: hidden !important;
 }
 #main-slider .item,
 #main-slider .item a {
   display: block;
-  height: 280px;
+  height: 360px;
   background: #0a0a0a;
 }
 #main-slider .item img {
   width: 100%;
-  height: 280px;
+  height: 360px;
   object-fit: fill;
   display: block;
 }
 @media (max-width: 768px) {
   #main-slider .owl-wrapper-outer {
-    max-height: 160px !important;
+    max-height: 200px !important;
   }
   #main-slider .item,
   #main-slider .item a,
   #main-slider .item img {
-    height: 160px;
+    height: 200px;
   }
 }
 
