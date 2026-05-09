@@ -341,7 +341,7 @@ h5 {
   object-fit: contain;
   padding: 6px;
 }
-.product-img-wrap a {
+.product-img-wrap > a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -376,16 +376,18 @@ h5 {
 }
 /* Heart icon — pinned right, vertically centered in bar */
 .hover-cart .wish-btn {
-  /* position: absolute; */
-  left: 2px;
+  position: absolute;
+  right: 8px;
   top: 50%;
   transform: translateY(-50%);
-  transform: translateX(-20%);
   color: #aaa;
   font-size: 14px;
   text-decoration: none;
   line-height: 1;
   transition: color 0.15s;
+  width: auto;
+  height: auto;
+  display: inline;
 }
 .hover-cart .wish-btn:hover {
   color: #fff;
