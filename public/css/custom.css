@@ -21,9 +21,24 @@ h5 {
 #top {
   background: #0a2e6e !important;
   color: #e8edf8 !important;
-  padding: 2px 0 !important;
+  padding: 4px 0 !important;
   font-size: 13px;
   white-space: nowrap;
+}
+#top .container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+#top .col-md-8,
+#top .col-md-4 {
+  float: none !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 !important;
+}
+#top .col-md-4 {
+  justify-content: flex-end;
 }
 #top .offer {
   overflow: hidden;
@@ -38,12 +53,23 @@ h5 {
   background: #e8632a !important;
   border-color: #e8632a !important;
   font-size: 11px !important;
-  padding: 0 8px !important;
-  margin-left: -14px;
-  align-items: center;
+  padding: 1px 8px !important;
+  margin-left: 0 !important;
+  margin-right: 6px !important;
+  vertical-align: middle;
+  line-height: 1.6;
+}
+#top ul.menu {
+  padding-top: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  margin: 0 !important;
 }
 #top ul.menu > li + li:before {
   content: none !important;
+}
+#top ul.menu > li {
+  margin-left: 10px;
 }
 
 /* ── Navbar — slim < 60px total height ──────────────── */
@@ -113,7 +139,7 @@ h5 {
   width: 280px;
 }
 .navbar-search-wrap .form-control {
-  border-radius: 8px 0 0 8px !important;
+  border-radius: 4px 0 0 4px !important;
   border: 1px solid #d0d8e8;
   font-size: 14px;
   height: 34px;
@@ -126,7 +152,7 @@ h5 {
   box-shadow: none;
 }
 .navbar-search-wrap .btn {
-  border-radius: 0 8px 8px 0 !important;
+  border-radius: 0 4px 4px 0 !important;
   background: #0a5bbf;
   border-color: #0a5bbf;
   color: #fff;
@@ -236,7 +262,7 @@ h5 {
   width: 48px;
   height: 3px;
   background: #0a5bbf;
-  margin: 0 auto 28px;
+  margin: 0 auto 12px;
   border-radius: 1px;
 }
 
@@ -264,12 +290,12 @@ h5 {
   width: 36px;
   height: 3px;
   background: #0a5bbf;
-  margin: 2px auto 6px;
+  margin: 2px auto 4px;
   border-radius: 1px;
 }
 #hot {
   background: #f5f7fa;
-  padding: 0 0 8px !important;
+  padding: 0 0 4px !important;
 }
 #hot .container {
   padding-bottom: 0;
@@ -765,7 +791,7 @@ body {
 
 /* ── Tagged product sections ─────────────────────────── */
 .product-section {
-  padding: 6px 0 10px;
+  padding: 4px 0 6px;
   background: #f5f7fa;
 }
 #section-sbc {
@@ -790,9 +816,9 @@ body {
 .section-header {
   display: block;
   text-align: center;
-  padding: 12px 0 0;
+  padding: 6px 0 0;
   border-bottom: none;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 .section-header h2 {
   font-size: 18px !important;
@@ -810,7 +836,7 @@ body {
   width: 36px;
   height: 3px;
   background: #0a5bbf;
-  margin: 4px auto 8px;
+  margin: 2px auto 4px;
   border-radius: 1px;
 }
 /* "View all" link removed — users navigate via category strip or navbar */
