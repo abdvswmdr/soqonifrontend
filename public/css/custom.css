@@ -858,18 +858,34 @@ body {
 #main-slider {
   margin-bottom: 0;
   overflow: hidden;
+  background: #eef0f5;
 }
+#main-slider .owl-wrapper-outer {
+  max-height: 280px !important;
+  overflow: hidden !important;
+}
+#main-slider .item,
 #main-slider .item a {
   display: block;
-  max-height: 240px;
+  height: 280px;
   overflow: hidden;
 }
 #main-slider .item img {
   width: 100%;
-  max-height: 240px;
+  height: 280px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center center;
   display: block;
+}
+@media (max-width: 768px) {
+  #main-slider .owl-wrapper-outer {
+    max-height: 160px !important;
+  }
+  #main-slider .item,
+  #main-slider .item a,
+  #main-slider .item img {
+    height: 160px;
+  }
 }
 
 /* ── Carousel item spacing ───────────────────────────── */
