@@ -63,7 +63,7 @@ deployment with Istio service mesh and monitoring.
 |--------------------------+-------------------------------------------------------------|
 | CI/CD                    | Jenkins 2.556 (JDK 21), Docker-in-Docker                    |
 | Configuration management | Ansible 2.x                                                 |
-| Container runtime (dev)  | Docker Compose, custom bridge ~192.168.61.0/24~            |
+| Container runtime (dev)  | Docker Compose, custom bridge ~192.168.61.0/24~               |
 | Container runtime (prod) | Kubernetes (Minikube / k3s)                                 |
 | Service mesh             | Istio 1.29 (sidecar injection, Kiali, Jaeger)               |
 | Monitoring               | kube-prometheus-stack (Prometheus + Grafana + AlertManager) |
